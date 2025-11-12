@@ -19,5 +19,6 @@ src/
 │ ├── Educacion.jsx
 │ ├── Experiencia.jsx
 │ ├── StackTecnologias.jsx
+│ ├── UserCard.jsx
 │
 └── App.jsx
