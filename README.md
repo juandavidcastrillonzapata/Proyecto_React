@@ -23,26 +23,40 @@ src/
 │
 └── App.jsx
 
-## 💻 Comandos Utilizados y sus Descripciones
+## Comandos de Instalación y Configuración del Proyecto
 
-A continuación se detallan los comandos ejecutados durante el desarrollo del proyecto y su propósito.
+A continuación se listan los comandos usados para crear, configurar y ejecutar este proyecto React con Vite.
 
 | Comando | Descripción |
-|----------|--------------|
-| `npm create vite@latest mi-cv-react -- --template react` | Crea un nuevo proyecto React utilizando **Vite** como entorno de desarrollo rápido. |
-| `cd mi-cv-react` | Entra al directorio del proyecto recién creado. |
-| `npm install` | Instala todas las dependencias necesarias del proyecto (React, Vite, etc.). |
-| `npm run dev` | Inicia el servidor de desarrollo local de Vite para visualizar la aplicación en el navegador. |
-| `git init` | Inicializa un nuevo repositorio Git en la carpeta del proyecto. |
-| `git status` | Muestra el estado actual del repositorio (archivos nuevos, modificados o sin seguimiento). |
-| `git add .` | Agrega todos los archivos y cambios al área de preparación para el siguiente commit. |
-| `git commit -m "mensaje"` | Guarda los cambios en el historial local del repositorio con una descripción (`"mensaje"`). |
-| `git branch -M master` | Cambia el nombre de la rama actual a **master**. |
-| `git remote add origin https://github.com/usuario/repositorio.git` | Conecta el repositorio local con el repositorio remoto en GitHub. |
-| `git push -u origin master` | Envía (sube) los commits locales al repositorio remoto en la rama `master`. |
-| `npm install prop-types` | Instala la librería **PropTypes**, usada para validar las propiedades (`props`) de los componentes React. |
-| `git pull origin master` | Descarga los últimos cambios del repositorio remoto para sincronizar con la versión local. |
-| `npm run build` | Crea una versión optimizada del proyecto lista para producción. |
-| `git log` | Muestra el historial de commits realizados en el repositorio. |
-| `clear` | Limpia la terminal para mantener el entorno de trabajo ordenado. |
+|----------|-------------|
+| `npm create vite@latest mi-cv-react -- --template react` | Crea un nuevo proyecto React usando **Vite** como herramienta de desarrollo. |
+| `cd mi-cv-react` | Ingresa al directorio del proyecto recién creado. |
+| `npm install` | Instala todas las dependencias necesarias del proyecto (React, React-DOM, Vite, etc.). |
+| `npm run dev` | Inicia el servidor local de desarrollo y abre el proyecto en el navegador. |
+| `npm install prop-types` | Instala la librería **PropTypes**, utilizada para validar los tipos de las props en componentes React. |
+| `npm run build` | Genera una versión optimizada del proyecto lista para producción. |
+| `npm run preview` | Permite previsualizar la versión final del proyecto después del build. |
+
+---
+
+## Comandos de Control de Versiones (Git)
+
+Estos comandos se utilizaron para manejar el control de versiones del proyecto, crear commits y subirlos a GitHub.
+
+| Comando | Descripción |
+|----------|-------------|
+| `git init` | Inicializa un nuevo repositorio Git local en la carpeta del proyecto. |
+| `git status` | Muestra el estado actual del repositorio (archivos nuevos, modificados o pendientes). |
+| `git add .` | Agrega todos los archivos modificados al área de preparación. |
+| `git commit -m "mensaje"` | Crea un commit con los cambios realizados y el mensaje descriptivo. |
+| `git branch -M master` | Renombra la rama actual a **master** (rama principal). |
+| `git remote add origin https://github.com/usuario/repositorio.git` | Conecta el repositorio local con el remoto en GitHub. |
+| `git push -u origin master` | Envía los commits locales a la rama principal del repositorio remoto. |
+| `git pull origin master --rebase` | Descarga y aplica los cambios del repositorio remoto antes de subir los tuyos (evita conflictos). |
+| `git log` | Muestra el historial completo de commits del proyecto. |
+| `clear` | Limpia la terminal para mantener el entorno ordenado. |
 | `code .` | Abre el proyecto directamente en **Visual Studio Code** desde la terminal. |
+
+## Resultado esperado despues de implentar todo en el codigo 
+
+<img width="1327" height="687" alt="image" src="https://github.com/user-attachments/assets/eb8ddccc-5aa3-4cd4-b5a0-0ebecedeb0ee" />
